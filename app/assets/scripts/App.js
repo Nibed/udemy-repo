@@ -5,6 +5,16 @@ import RevealOnScroll from "./modules/RevealOnScroll"
 import StickyHeader from "./modules/StickyHeader"
 import ClientArea from './modules/ClientArea'
 
+//react Related code goes here
+
+import React from "react"
+import ReactDOM from "react-dom"
+
+//Import custom React component
+
+import MyAmazinComponent from "./modules/MyAmazingComponent"
+ReactDOM.render(<MyAmazinComponent />, document.querySelector("#my-react-example"))
+
 
 new ClientArea();
 new MobileMenu();
